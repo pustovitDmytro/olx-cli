@@ -1,0 +1,42 @@
+{
+  "name": "olx-cli",
+  "version": "1.0.0",
+  "description": "smart cli filtering tool based on web scrapper",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pustovitDmytro/olx-cli.git"
+  },
+  "keywords": [
+    "scrapper",
+    "cli"
+  ],
+  "author": "Pustovit Dmytro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pustovitDmytro/olx-cli/issues"
+  },
+  "homepage": "https://github.com/pustovitDmytro/olx-cli#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-runtime": "^6.26.0",
+    "bluebird": "^3.5.3",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-webbylab": "^4.0.0",
+    "eslint-plugin-fetch": "0.0.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-more": "^0.3.2",
+    "eslint-plugin-no-require-lodash": "^1.1.0",
+    "eslint-plugin-prefer-spread": "^1.0.3",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}

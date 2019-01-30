@@ -1,0 +1,11 @@
+{
+    "extends": "webbylab",
+    "env": {
+        "browser": false
+    },
+    "rules": {
+        "import/no-commonjs": 0,
+        "func-names": 0,
+        "prefer-arrow-callback": 0
+    }
+}
