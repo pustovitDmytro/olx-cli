@@ -1,7 +1,7 @@
 import findPosts from './lib/services/findPosts';
 import Runner from './lib/Runner';
 
-(new Runner()).run(findPosts,'https://www.olx.ua/uk/nedvizhimost/kvartiry-komnaty/prodazha-kvartir-komnat/kvartira/kiev/?search%5Bfilter_float_price%3Afrom%5D=500000&search%5Bfilter_float_price%3Ato%5D=800000');
+(new Runner()).run(findPosts, 'https://www.olx.ua/uk/nedvizhimost/kvartiry-komnaty/prodazha-kvartir-komnat/kvartira/kiev/?search%5Bfilter_float_price%3Afrom%5D=500000&search%5Bfilter_float_price%3Ato%5D=800000');
 
 // async function doJob() {
 //     if (!jobs.length) return;
